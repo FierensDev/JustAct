@@ -130,7 +130,7 @@ window.signInError = false;
 //Show an error if email is not valid
 emailSignUp.addEventListener("blur", () => {
   if(!emailIsValid(emailSignUp.value)){
-   window.singUpErrors.emailSignUp = "Email incorrect. (exemple d'email correct : dev.fierens@gmail.com" 
+   window.singUpErrors.emailSignUp = "Email incorrect.<br>(exemple: dev.fierens@gmail.com)"
   } else {
     window.singUpErrors.emailSignUp = false
   }
@@ -140,7 +140,7 @@ emailSignUp.addEventListener("blur", () => {
 //Show an error if password is not valid
 passwordSignUp.addEventListener("blur", () => {
   if(!passwordIsValid(passwordSignUp.value)){
-   window.singUpErrors.passwordSignUp = "Le mot de passe doit contenir au minimum 6caracteres minimum dont : 1 majuscule, 1 minuscule, 1 nombre" 
+   window.singUpErrors.passwordSignUp = "Le mot de passe doit contenir : <br> - 6 caractères,<br> - 1 majuscule, <br> - 1 minuscule, <br> - 1 nombre" 
   } else {
     window.singUpErrors.passwordSignUp = false
   }

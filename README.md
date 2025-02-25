@@ -10,6 +10,13 @@ This project is a to-do app developed in native JavaScript, using localStorage t
 ## Installation
 
 1. Clone the project.
+2. Run server
 2. Open the project in your browser.
 
+```
+npm install -g http-server
+```
+```
+http-server .
+```
 Fierens Denis

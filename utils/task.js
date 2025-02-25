@@ -7,10 +7,10 @@ export function getTasks(){
   return tasks.task
 }
 
-//Create the task card
+//Create task card
 export function createTaskCard(task, index){
  
-  //First create an element to interact with THIS element later
+  //First: create an element to interact with THIS element later
   let taskElement = document.createElement("div");
   taskElement.id = `task_${index}`;
   taskElement.classList.add("task");
