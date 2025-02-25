@@ -1,0 +1,7 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="main-logo"  viewBox="0 0 70 70">
+    <path d="M35 17.5V35H52.5V52.5H70V0H17.5V17.5H35Z" fill="white"/>
+    <path d="M17.5 35V52.5H35V35H17.5Z" fill="white"/>
+    <path d="M0 52.5V70H17.5V52.5H0Z" fill="white"/>
+  </symbol>
+</svg>

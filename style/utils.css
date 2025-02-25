@@ -1,0 +1,60 @@
+.container {
+  width: 95vw;
+  /* max-width: 400px; */
+  /* margin: 16px auto 16px auto; */
+  margin: auto;
+  /* padding: 10px; */
+  /* background: blue; */
+}
+
+.rounded-full{
+  border-radius: calc(infinity * 1px);
+}
+
+.item-center{
+  place-content: center;
+}
+
+.bg-red{
+  background: red;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.line-separator {
+  width: 100%;
+  height: 1px;
+
+  background: linear-gradient(to left, transparent, gray, transparent);
+}
+
+.gap-8{
+  gap: 8px;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-subtitle {
+  color: gray;
+}
+
+.mt-8{
+  margin-top: 8px;
+}
+
+.m-auto {
+  margin: auto;
+}
